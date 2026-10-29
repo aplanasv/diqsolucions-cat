@@ -6,7 +6,7 @@ const content = require('./content.js');
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://diqsolucions.cat';
 const EMAIL = 'info@diqsolucions.cat';
-const ACCESS_KEY = 'LA_TEVA_ACCESS_KEY_WEB3FORMS';   // clau de Web3Forms (pendent)
+const ACCESS_KEY = '16c55f75-fc4b-40b5-995b-94b2e044a52f';
 const ORDER = ['ca', 'es', 'en'];
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
